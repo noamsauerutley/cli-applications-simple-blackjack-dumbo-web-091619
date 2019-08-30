@@ -60,8 +60,7 @@ end
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
-path = load './lib/runner.rb'
-def runner(path)
+def runner("lib/runner.rb")
   # code runner here
   welcome
   total = initial_round
