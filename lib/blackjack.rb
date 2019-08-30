@@ -35,6 +35,11 @@ def initial_round
   return total
 end
 
+def invalid_command
+  # code invalid_command here
+  puts 'Please enter a valid command'
+end
+
 def hit?(total)
   # code hit? here
   prompt_user
@@ -48,10 +53,7 @@ def hit?(total)
   return total
 end
 
-def invalid_command
-  # code invalid_command here
-  puts 'Please enter a valid command'
-end
+
 
 #####################################################
 # get every test to pass before coding runner below #
